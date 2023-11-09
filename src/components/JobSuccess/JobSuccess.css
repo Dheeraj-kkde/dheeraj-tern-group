@@ -1,0 +1,26 @@
+.job-success{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 20px;
+}
+
+.success{
+    display:flex;
+    border:2px solid rgb(19, 98, 19);
+    border-radius:15px;
+    box-shadow:3px 3px 4px green;
+    flex-direction:column;
+    gap:15px;
+    padding: 10px 20px;
+}
+
+.success h2{
+    color: rgb(2, 30, 2);
+}
+
+.preview-box{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}

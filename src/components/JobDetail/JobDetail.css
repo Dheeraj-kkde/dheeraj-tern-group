@@ -1,0 +1,47 @@
+.job-details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+.job-detail-card{
+    border: 3px solid #629540;
+    box-shadow: 5px 5px 5px rgb(154, 225, 154);
+    padding: 30px;
+    border-radius: 15px;  
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.company-url{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.skills{
+    display:flex;
+    gap: 10px;
+}
+
+.single-skill{
+    padding:2px;
+    border: 1px solid green;
+    border-radius:5px;
+}
+
+.job-posting{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.apply-btn{
+    width: 120px;
+    height:40px;
+    background:green;
+    color:white;
+    border-style: none;
+    border-radius: 20px;
+    cursor:pointer;
+}

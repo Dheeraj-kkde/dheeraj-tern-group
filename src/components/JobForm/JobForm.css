@@ -1,0 +1,85 @@
+.application-form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+.app-form{
+    border:1px solid green;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px rgb(36, 175, 48);
+    padding:20px 40px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.app-form h2{
+    color: rgb(2, 27, 2);
+}
+
+.form-container{
+    display:flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.name-container{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.name-container input{
+    height:15px;
+    width: 70%;
+    padding:5px;
+    border-radius:5px;
+    border: 1px solid green
+}
+
+.email-container{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.email-container input{
+    height:15px;
+    width: 70%;
+    padding:5px;
+    border-radius:5px;
+    border: 1px solid green
+}
+
+.cover-letter{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.cover-letter textarea{
+    height:35px;
+    width: 90%;
+    padding:5px;
+    border-radius:5px;
+    border: 1px solid green
+}
+
+.resume{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    cursor: pointer;  
+}
+
+.submit-btn{
+    background:rgb(29, 111, 29);
+    color:white;
+    padding:10px 20px;
+    border-style:none;
+    border-radius:20px;
+    width:60%;
+    cursor: pointer;
+}
